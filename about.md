@@ -1,15 +1,12 @@
 ---
 layout: page
-title: About
+title: О сайте
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Этот сайт сделан на платформе [github-pages][github-pages] с помощью генератора статичных сайтов [Jekyll][jekyll-official].
+Существует замечательный сайт с [переводом документации Jekyll][jekyll-translate]
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+[github-pages]: https://pages.github.com
+[jekyll-official]: https://jekyllrb.com
+[jekyll-translate]: http://prgssr.ru/documentation/
