@@ -2,10 +2,10 @@
 layout: post
 title:  "О том, как такое сделано"
 date:   2016-02-28 22:48:29 +0600
-categories: jekyll update
+categories: jekyll
 excerpt_separator: <!-- excerpt -->
 ---
-# Как я сделал этот сайт
+## Как я сделал этот сайт
 
 Создаем репозиторий, как указано на [github-pages][github-pages]
 

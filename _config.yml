@@ -6,6 +6,9 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
+permalink: pretty
+
+
 title: qpalzz
 email: same-as-domain{at}qpalzz.com
 description: > # this means to ignore newlines until "baseurl:"
@@ -16,3 +19,12 @@ github_username:  qpalzz
 
 # Build settings
 markdown: kramdown
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      in_menu: "false"
+      menu-order: 0
