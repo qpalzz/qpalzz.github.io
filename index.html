@@ -17,6 +17,9 @@ layout: default
         <p>
           {{ post.excerpt }}
         </p>
+        <p>
+        	<a href="{{ post.url | prepend: site.baseurl }}">Подробнее...</a>
+        </p>
       </li>
     {% endfor %}
   </ul>
