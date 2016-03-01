@@ -12,7 +12,8 @@ permalink: pretty
 title: qpalzz
 email: same-as-domain{at}qpalzz.com
 description: > # this means to ignore newlines until "baseurl:"
-  Этот сайт разработан с помощью Jekyll
+  Нормальный такой сайтец, как и все остальные,
+  непонятно для чего сделан
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://qpalzz.com" # the base hostname & protocol for your site
 github_username:  qpalzz
