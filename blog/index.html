@@ -12,6 +12,9 @@ menu_order: 10
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
+      {% if post.categories contains "note" %}
+        {{ post.content }}
+      {% else %}
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
@@ -21,8 +24,9 @@ menu_order: 10
           {{ post.excerpt }}
         </p>
         <p>
-        	<a href="{{ post.url | prepend: site.baseurl }}">Подробнее...</a>
+          <a href="{{ post.url | prepend: site.baseurl }}">Подробнее...</a>
         </p>
+      {% endif %}
       </li>
     {% endfor %}
   </ul>
