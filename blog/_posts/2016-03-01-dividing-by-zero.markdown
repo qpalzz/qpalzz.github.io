@@ -1,5 +1,5 @@
 ---
-title: dividing by zero
+title: Деление на ноль
 layout: post
 categories: note
 ---
