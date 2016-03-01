@@ -7,13 +7,17 @@ menu_order: 10
 
 <div class="home">
 
-  <h1 class="page-heading">{{ page.title }}</h1>
+  <h1 class="page-heading">{{ page.title }}</h1> 
+  
+  <p class="rss-subscribe">
+    подписаться <a href="{{ "/feed.xml" | prepend: site.baseurl }}">на RSS</a>
+  </p>
 
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        
+
         {% if post.categories contains "note" %}
           {{ post.content }}
         {% else %}
@@ -30,7 +34,5 @@ menu_order: 10
       </li>
     {% endfor %}
   </ul>
-
-  <p class="rss-subscribe">подписаться <a href="{{ "/feed.xml" | prepend: site.baseurl }}">на RSS</a></p>
 
 </div>
