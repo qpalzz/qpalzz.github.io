@@ -4,4 +4,4 @@ layout: post
 categories: note
 ---
 > Очень понравилась картинка, характеризующая утиную типизацию
-![duck_type](/uploads/duck_type.jpg)
+<img src="/uploads/duck_type.jpg" alt="утиная типизация" width="480" height="360">
