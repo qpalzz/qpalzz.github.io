@@ -25,6 +25,7 @@ rvm install ruby-2.3.0
 {% endhighlight %}
 
 Переходим в корневую директорию сайта
+
 UPD: добавил флаг --default, чтобы не вводить rvm use каждый раз
 {% highlight bash %}
 cd code/sites/qpalzz/
