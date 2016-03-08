@@ -1,10 +1,13 @@
 ---
 title: El Capitan. Папки вверху списка в Finder.app
 layout: post
+excerpt_separator: <!-- excerpt -->
 ---
 Для меня очень большой проблемой являлось то, что было сложно привыкнуть к раположению папок в списке содержимого программы Finder.app. В отличие от систем Windows, а так же Gnome, к которым я привык, невозможно отсортировать содержимое так, чтобы директории находились всегда вверху списка. 
 
 ![ordered_folders]({{ site.baseurl }}/uploads/ordered_folders.png)
+
+<!-- excerpt -->
 
 В процессе поиска решения этой проблемы был найден пост [Force Your Mac to Sort Folders on Top of Files (Windows Style)][folder-on-top-original]. В нем предлагалось установить пробел в значении секции Folder файла /System/Library/CoreServices/Finder.app/Contents/Resources/English.lproj/InfoPlist.strings. Но он не подходил, так как при открытии в текстовом редакторе в файле, описанном в этом способе была каша, так как он находится в бинарном представлении. Затем я наткнулся на способ восстановить текстовое представление, используя программу plutil. Но восстановить файл в представление xml не вышло, так как система имела включенный [SIP][SIP], и даже от имени суперпользователя (root) этого сделать не удавалось. Так что сначала пришлось найти способ  отключения SIP ([How do I disable System Integrity Protection (SIP) AKA “rootless” on OS X 10.11, El Capitan?][disable-sip]). Объединив эти решения была предпринята попытка изменить данный файл.
 
