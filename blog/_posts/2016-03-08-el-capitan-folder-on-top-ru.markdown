@@ -113,7 +113,7 @@ csrutil enable
 
 ![views_parameters]({{ site.baseurl }}/uploads/views_parameters.png)
 
-К сожалению, на отоброжение директорий в списке файлов в окнах открытия/сохранения в различных программах это не повлияло.  
+К сожалению, на отображение директорий в списке файлов в окнах открытия/сохранения в различных программах это не повлияло.  
 
 [SIP]: https://support.apple.com/en-us/HT204899
 [folder-on-top-original]: http://www.howtogeek.com/67100/force-your-mac-to-put-folders-on-top-of-files-windows-style/
